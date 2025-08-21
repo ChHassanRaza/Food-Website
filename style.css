@@ -1,1 +1,15 @@
-.Welcome{background-color: black;}
+.Welcome {
+    background-color: rgb(12, 54, 168);
+    text-align: center;
+    color:white;
+    width: 1250px;
+    height: 50px;
+   
+}
+
+
+
+.Permanent {
+    background-color: rgb(124, 170, 238);
+    
+}
