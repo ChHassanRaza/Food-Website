@@ -4,31 +4,52 @@
     color: white;
     width: 1250px;
     height: 50px;
-text-transform: uppercase;
+    text-transform: uppercase;
 
 
 }
-
-
 
 .Permanent {
     background-color: rgb(0, 2, 5);
     font-weight: bolder;
     font-size: x-large;
 
-
-
-
 }
 
 .Main {
-    font-size:50px;
+    font-size: 50px;
 
 }
-a{text-decoration: none;
+
+a {
+    text-decoration: none;
     color: white;
 
+}
 
+a:hover {
+    color: rgb(19, 5, 3);
+    text-decoration: underline;
 
+}
 
+a:focus {
+    color: gold;
+}
+
+button:hover {
+    color: rgb(235, 235, 243);
+    background-color: rgb(5, 59, 206);
+cursor: pointer;
+
+}
+
+input:focus{
+
+color: rgb(16, 29, 207);
+font-size: medium;
+
+}
+td:hover{
+    background-color: aqua;
 }
