@@ -2,11 +2,13 @@
     background-color: rgb(19, 115, 143);
     text-align: center;
     color: white;
-    width: 1260px;
+    width: 100%;
     height: 50px;
     text-transform: uppercase;
     border-spacing: 1px;
-
+    border: 2px solid rgb(172, 150, 150);
+    border-collapse: collapse;
+    
 }
 
 .Permanent {
@@ -14,11 +16,14 @@
     font-weight: bolder;
     font-size: x-large;
     height: 20%;
-    width: 20%;
+    padding: 10px;
+
 }
 
 .Main {
     font-size: 50px;
+    width: 100%;
+    padding: 5px;
 
 }
 
@@ -31,26 +36,32 @@ a {
 a:hover {
     color: rgb(19, 5, 3);
     text-decoration: underline;
-
+    font-size: xx-large;
+    
 }
 
 a:focus {
     color: gold;
+    
 }
 
 
 td:hover {
     background-color: rgb(12, 197, 253);
+    
+
 }
+
 
 .subtitle {
     background-color: rgb(19 115 143);
     text-align: center;
     text-transform: uppercase;
-    width: 1260px;
+    width: 100%;
     font-size: 50px;
     font-weight: bolder;
     color: white;
+    padding: 5px;
 }
 
 .subtable {
@@ -58,17 +69,20 @@ td:hover {
     background-color: rgb(15, 15, 15);
     text-align: center;
     color: white;
-    width: 1000px;
+    width: 80%;
     height: 100px;
     text-transform: uppercase;
-    border-spacing: 1px;
+    border:1px solid black;
     font-size: xx-large;
-    margin-right: auto;
+    border-spacing: 5px;
+    border: 1px solid rgb(172, 150, 150);
     margin-left: auto;
+    margin-right: auto;
+
 }
 
 li {
     font-size: xx-large;
     font-weight: bolder;
-
 }
+
