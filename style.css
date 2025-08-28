@@ -40,7 +40,7 @@ a:focus {
 
 
 td:hover {
-    background-color:rgb(12, 197, 253);
+    background-color: rgb(12, 197, 253);
 }
 
 .subtitle {
@@ -51,16 +51,24 @@ td:hover {
     font-size: 50px;
     font-weight: bolder;
     color: white;
-
 }
-.subtable{
-    
+
+.subtable {
+
     background-color: rgb(15, 15, 15);
     text-align: center;
     color: white;
-    width: 500px;
+    width: 1000px;
     height: 100px;
     text-transform: uppercase;
     border-spacing: 1px;
     font-size: xx-large;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+li {
+    font-size: xx-large;
+    font-weight: bolder;
+
 }
