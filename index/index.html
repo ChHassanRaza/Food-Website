@@ -7,6 +7,13 @@
     <title>Fast Food</title>
 
     <link rel="stylesheet" href="style.css">
+    <style>
+        #selected{
+            background-color:  rgb(12, 197, 253) !important;
+            color:black !important;
+        }
+
+    </style>
 </head>
 
 <body>
@@ -15,16 +22,16 @@
             <tbody>
                 <tr>
                     <th colspan="5">
-                        <p class="Main">Welcome To Online Food Service</p>
+                        <p id="Main">Welcome To Online Food Service</p>
 
                     </th>
                 </tr>
-                <tr>
-                    <td class="Permanent"><a href="./index.html">Home</a></td>
-                    <td class="Permanent"><a href="/Fruit/Fruit.html">Fruits</a></td>
-                    <td class="Permanent"><a href="Grocery.html">Grocery</a></td>
-                    <td class="Permanent"><a href="About.html">About</a></td>
-                    <td class="Permanent"><a href="Contact.html">Contact</a></td>
+                <tr id="Bar">
+                    <td id="selected"><a href="../index/index.html">Home</a></td>
+                    <td><a href="../Fruit/Fruit.html">Fruits</a></td>
+                    <td><a href="../Grocery/Grocery.html">Grocery</a></td>
+                    <td><a href="../About/About.html">About</a></td>
+                    <td><a href="../Contact/Contact.html">Contact</a></td>
                 </tr>
             </tbody>
 
@@ -37,7 +44,7 @@
 <br>
 
     
-    <table class="subtable" border="2px">
+    <table id="Manu" border="2px">
         <tr>
             <td> <a href="#Burgers">Burgers</a></td>
             <td><a href="#Bar B.Q">Bar B.Q</a></td>
