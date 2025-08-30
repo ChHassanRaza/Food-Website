@@ -36,6 +36,11 @@ td:hover {
 
 a:hover {
     font-size: xx-large;
+    color: black;
+    
+}
+a:active{
+    color: gold;
 }
 
 .subtitle {
@@ -48,7 +53,7 @@ a:hover {
     color: white;
     padding: 5px;
 }
-#Manu{
+.Manu{
     
     background-color: rgb(15, 15, 15);
     text-align: center;
@@ -63,4 +68,8 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
 
+}
+li{
+      font-size: xx-large;
+    font-weight: bolder;
 }
