@@ -62,6 +62,11 @@ a {
     
    
 }
-#Bar>=a:hover{
+td a:hover{
     font-size: 40px;
+    color: gold;
+}
+
+div{
+    overflow: scroll;
 }

@@ -1,0 +1,32 @@
+.Welcome{
+    border-color: rgb(35, 236, 210);
+    width: 100%;
+    background-color: rgb(19,115,143);
+    text-align: center;
+    border-radius: 10px;}
+#Main {
+    font-size: 50px;
+    padding: 15px;
+    color: white;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+#Bar>td{
+    background-color: black;
+    padding: 10px;
+    font-size: x-large ;
+    text-transform: uppercase;
+    font-weight: bolder;
+    
+    
+   
+}
+td a:hover{
+    font-size: 40px;
+    color: gold;
+}

@@ -1,58 +1,32 @@
-.Welcome {
-    background-color: ;
-    text-align: center;
-    color: white;
+.Welcome{
+    border-color: rgb(35, 236, 210);
     width: 100%;
-    height: 50px;
-    text-transform: uppercase;
-    border-spacing: 1px;
-    border: 2px solid rgb(172, 150, 150);
-    border-collapse: collapse;
+    background-color: rgb(19,115,143);
+    text-align: center;
+    border-radius: 10px;}
+#Main {
+    font-size: 50px;
+    padding: 15px;
+    color: white;
 }
 
-#Bar {
-    background-color: rgb(0, 2, 5);
-    font-weight: bolder;
-    font-size: x-large;
-    height: 20%;
-    padding: 50px;
-}
 
 a {
     text-decoration: none;
     color: white;
-
+    text-transform: uppercase;
 }
-
-#Main {
-  
-}
-
-td:hover {
-    background-color: rgb(21, 157, 199);
-
-}
-
-a:hover {
-    font-size: xx-large;
+#Bar>td{
+    background-color: black;
+    padding: 10px;
+    font-size: x-large ;
+    text-transform: uppercase;
+    font-weight: bolder;
     
     
+   
 }
-a:active{
+td a:hover{
+    font-size: 40px;
     color: gold;
-}
-
-.subtitle {
- 
-}
-.Manu{
-    
- 
-
-}
-li{
-     
-} */
-a:hover{
-    font-size: xx-large;
 }
