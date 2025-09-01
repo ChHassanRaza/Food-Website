@@ -1,5 +1,5 @@
 .Welcome {
-    background-color: rgb(19, 115, 143);
+    background-color: ;
     text-align: center;
     color: white;
     width: 100%;
@@ -25,8 +25,7 @@ a {
 }
 
 #Main {
-    font-size: 40px;
-    padding: 15px;
+  
 }
 
 td:hover {
@@ -37,25 +36,23 @@ td:hover {
 a:hover {
     font-size: xx-large;
     
+    
 }
 a:active{
     color: gold;
 }
 
-
+.subtitle {
+ 
+}
 .Manu{
     
-    background-color: rgb(15, 15, 15);
-    text-align: center;
-    color: white;
-    width: 80%;
-    height: 100px;
-    text-transform: uppercase;
-    border:1px solid black;
-    font-size: xx-large;
-    border-spacing: 5px;
-    border: 1px solid rgb(172, 150, 150);
-    margin-left: auto;
-    margin-right: auto;
+ 
 
+}
+li{
+     
+} */
+a:hover{
+    font-size: xx-large;
 }
