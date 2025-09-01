@@ -27,6 +27,10 @@ a {
    
 }
 td a:hover{
-    font-size: 40px;
+    font-size: 30px;
     color: gold;
+}
+
+td:hover{
+    border-color: rgb(46, 14, 223);
 }

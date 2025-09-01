@@ -8,6 +8,7 @@
     color: white;
     padding: 5px;
     border:2px solid  rgb(35, 236, 210);
+    margin: 10px;
 }
 
 li {
@@ -42,6 +43,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    
 }
 .Welcome{
     border-color: rgb(35, 236, 210);
@@ -49,7 +51,7 @@ a {
     background-color: rgb(19,115,143);
     text-align: center;
     border-radius: 10px;
-    
+    margin: 10px;
   
 }
 #Bar>td{
@@ -63,10 +65,11 @@ a {
    
 }
 td a:hover{
-    font-size: 40px;
+    font-size: 30px;
     color: gold;
+   
+}
+td:hover{
+    border-color: rgb(46, 14, 223);
 }
 
-div{
-    overflow: scroll;
-}
